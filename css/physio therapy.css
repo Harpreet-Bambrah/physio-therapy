@@ -1,0 +1,138 @@
+.text-color1{
+    color: #56afd5;
+}
+
+.nav-btn{
+    color: #ffffff;
+    background: #A175AA;
+    padding: 11px 22px !important;
+    font-size: 13.5px;
+    border-radius: 20px;
+    font-weight: 700;
+    text-align: center;
+  
+}
+
+            /* section-1  */
+
+
+.text-container{
+    position: absolute;
+    width: 600px;
+    top: 30%;
+    padding: 0;
+    left: 5%;
+    right: auto;
+    padding: 0;
+    
+}
+
+.h-position{
+    position: absolute;
+}
+
+.img-h-text1{
+    font-size: 18px;
+    font-weight: 700;
+    color: #56afd5;
+    letter-spacing: 6px;
+    text-shadow: 0 1px 1px rgb(50 50 50 / 10%);
+}
+
+
+.img-h-text2{
+    margin: 10px 0 15px 0;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #fff;
+    text-shadow: 0 1px 1px rgb(50 50 50 / 40%);
+    padding-bottom: 20px;
+}
+
+.img-btn{
+    color: #ffffff;
+    background: #A175AA;
+    padding: 12px 25px;
+    font-size: 13.5px;
+    border-radius: 30px;
+    font-weight: 700;
+    text-align: center;
+   
+}
+
+
+
+     /* section-6  */
+
+
+.section-6{
+    background-image: url(../images/backgroundimg.jpg);
+    background-position: center bottom;
+    background-size: cover;
+   
+}
+
+
+
+
+      /* section-7  */
+.tag-date{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    padding: 4px 12px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    text-transform: uppercase;
+    border-radius: 2px;
+    background-color: #9a65a5;
+}
+
+
+            /* footer  */
+
+
+footer{
+    background-image: url(../images/footerimg1.png);
+    background-position: center bottom;
+    background-size: cover;
+}
+
+
+@media screen and (max-width:991px) {
+
+            /* section-1-img-text  */
+
+    .text-container{
+        position:static;
+        background-color: #999;
+        width: 100%;
+    }
+
+    .img-h-text2{
+        font-size: 35px;
+        margin: 15px 0 15px 0;
+
+    }
+
+    .nav-btn{
+        width: 100%;
+    }
+
+    .card-1-h{
+        font-size: 40px;
+    }
+
+    .card-1-p{
+        font-size: 20px;
+    }
+
+        
+    .h-position{
+        position: static;
+    }
+
+}
